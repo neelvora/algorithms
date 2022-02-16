@@ -6,9 +6,9 @@ def caesar_cipher(string, shift, cipher = "")
 
     shifted = ascii.map { |char| char + shift}
 
-    puts shifted.map {|char| char.chr}
-        
-
+    cipher = shifted.map {|char| char.chr}
+    
+    puts cipher
 
 end
 
